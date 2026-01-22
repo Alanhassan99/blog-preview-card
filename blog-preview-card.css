@@ -1,0 +1,158 @@
+body{
+  background-color: rgb(244, 208, 78);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+font-family: figtree, sans-serif;
+color: hsl(0, 0%, 7%);
+
+}
+main{
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  height: 474px;
+  width: 336px;
+    padding: 24px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px black;
+  
+}
+
+.illustration{
+  position: relative;
+  border-radius: 10px;
+}
+.info{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+.learning{
+position: relative;
+margin-bottom: 0px;
+background-color: rgb(244, 208, 78);
+width: 67px;
+padding: 6px;
+border-radius: 4px;
+font-weight: 800;
+
+}
+.publish{
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+.header-and-paragraph{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+header:hover{
+  color: rgb(244, 208, 78);
+  cursor: pointer;
+}
+p{
+  color: hsl(0, 0%, 42%);
+  line-height: 20px;
+}
+.photo-and-name{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 10px;
+}
+
+.photo-of-greg{
+  width: 35px;
+  height: 35px;
+margin-right: 10px;
+}
+.name{
+  font-weight: 800;
+}
+
+footer{
+  position: relative;
+  top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 440px){
+ main{
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: start;
+ height: auto;
+ max-height: 479px;
+  width: 100%;
+  max-width: 279px;
+  padding: 24px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px black;
+  
+}
+
+.illustration{
+position: relative;
+border-radius: 10px;
+width: 100%;
+height: auto;
+
+}
+
+.info{
+position: relative;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+.learning{
+position: relative;
+margin-bottom: 5px;
+font-size: 12px;
+background-color: rgb(244, 208, 78);
+width: 50px;
+padding: 6px 10px 6px 10px;
+border-radius: 4px;
+font-weight: 800;
+top: -5px;
+
+}
+.publish{
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.header-and-paragraph{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+header{
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.photo-and-name{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 10px;
+  font-size: 14px;
+}
+
+}
